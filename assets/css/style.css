@@ -455,7 +455,9 @@ ul li.card-action a {
 .category {
     padding: 40px 15px 40px 40px;
 }
-
+.card.chosen{
+    border: none;
+}
 footer {
     padding: 30px 0;
     background: #835752;
@@ -814,7 +816,6 @@ ul.navigation li > ul li a {
 }
 .card-action{
     display: block;
-    padding-right: 20%;
 }
 .card-action .btn img{
     width: 22px;
@@ -1102,6 +1103,89 @@ ul.navigation li > ul li a {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-#delivery h2.title-block{
+ h2.title-block{
     text-align: center;
+     margin-bottom: 40px;
+}
+#chosen{
+    padding-bottom: 136px;
+}
+.block-more{
+    margin-top: 130px;
+}
+.btn-more:hover{
+    background: #835752;
+    color: #ffffff;
+}
+.comparison-img{
+    margin: 0 auto;
+    display: block;
+}
+.comparison-title h3{
+    color: #212529;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+}
+.comparison-title{
+    margin-bottom: 36px;
+}
+.comparison-buy{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 165%;
+    color: #212529;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #E0E0E0;
+}
+.comparison-action{
+    margin-bottom: 10px;
+}
+.comparison-desc p{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4F4F4F;
+    white-space: inherit;
+}
+.comparison-desc{
+    margin-bottom: 25px;
+
+}
+.comparison-desc p.title-desc{
+    font-weight: 700;
+}
+.comparison-buy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+span.disable{
+    color: #BABABA;;
+}
+.button{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+    background: none;
+}
+.button-buy{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 3px 8px rgb(69 101 173 / 26%);
+    box-shadow: 0px 3px 8px rgb(69 101 173 / 26%);
+}
+.button-buy img{
+    width: 28px;
+}
+.card-comparison{
+    padding: 8px;
 }
