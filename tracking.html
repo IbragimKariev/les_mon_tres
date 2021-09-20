@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <title>Les Montres | Личный кабинет</title>
+    <title>Les Montres | Личный кабинет | Отслеживание товара</title>
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/Vector.png">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/swiper.min.css" rel="stylesheet">
@@ -13,6 +13,10 @@
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/media.css" rel="stylesheet">
     <link href="assets/css/fonts.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap"
+          rel="stylesheet">
 </head>
 <body>
 <header class="header py-3 mb-2 container mt-2">
@@ -124,57 +128,172 @@
         <div class="container">
             <h2 class="title-block">Личный кабинет</h2>
             <div class="row">
-                <div class="col-md-12 col-lg-4 col-xl-3">
+                <div class="col-md-12 col-lg-3 col-xl-3">
                     <ul class="side-list">
                         <li><a href="">История покупок</a></li>
-                        <li><a href="" class="active">Личные данные</a></li>
-                        <li><a href="">Отслеживание заказа</a></li>
+                        <li><a href="">Личные данные</a></li>
+                        <li><a href="" class="active">Отслеживание заказа</a></li>
                         <li><a href="">Мои карты</a></li>
                         <li><a href="">Настройки</a></li>
                     </ul>
                 </div>
-                <div class="col-md-12 col-lg-8 col-xl-9">
-                    <div class="personal-block">
-                        <form action="" class="personal-form">
-                            <div class="form-group">
-                                <label for="">Фамилия</label>
-                                <input type="text">
-                            </div>
-                            <div class="form-group">
-                                <label for="">Имя</label>
-                                <input type="text">
-                            </div>
-                            <div class="form-group">
-                                <label for="">Отчество</label>
-                                <input type="text">
-                            </div>
-                            <div class="form-group">
-                                <label for="">Дата рождения</label>
-                                <div class="form-position date">
-                                    <input type="text">
-                                </div>
+                <div class="col-md-12 col-lg-9 col-xl-9">
+                    <div class="product-tracking">
+                        <h4 class="product-tracking-title">
+                            Заказ № 1214564
+                        </h4>
+                        <div class="load">
+                            <ul class="progressbar">
+                                <li class="active"><span>Создан</span></li>
+                                <li class="active"><span>Подтвержден</span></li>
+                                <li class=""><span>Отправлен</span></li>
+                                <li class=""><span>Прибыл</span></li>
+                            </ul>
+                        </div>
+                        <div class="product-tracking-item">
 
+                            <div class="block-product image">
+                                <img src="assets/images/image%2012.png" alt="">
                             </div>
-                            <div class="form-group">
-                                <label for="">Почта</label>
-                                <input type="email">
+                            <div class="block-product text">
+                                <p><strong>Товар</strong></p>
+                                <p class="meaning">Швейцарские часы
+                                    les montres</p>
                             </div>
-                            <div class="form-group">
-                                <label for="">Телефон</label>
-                                <input type="text">
+
+                            <div class="block-product text">
+                                <p><strong>Сумма</strong></p>
+                                <p class="meaning">35 000 ₽</p>
                             </div>
-                            <div class="form-group">
-                                <label for="">Адрес</label>
-                                <div class="form-position edit">
-                                    <input type="text">
-                                </div>
+                            <div class="block-product text">
+                                <p><strong>Дата доставки</strong></p>
+                                <p class="meaning">01.02.2020</p>
                             </div>
-                            <div class="form-group">
-                                <button>
-                                    Добавить адрес
-                                </button>
+                            <div class="block-product text">
+                                <p><strong>Вид доставки</strong></p>
+                                <p class="meaning">Самовывоз</p>
                             </div>
-                        </form>
+                        </div>
+                        <div class="product-tracking-item">
+
+                            <div class="block-product image">
+                                <img src="assets/images/image%2012.png" alt="">
+                            </div>
+                            <div class="block-product text">
+                                <p><strong>Товар</strong></p>
+                                <p class="meaning">Швейцарские часы
+                                    les montres</p>
+                            </div>
+
+                            <div class="block-product text">
+                                <p><strong>Сумма</strong></p>
+                                <p class="meaning">35 000 ₽</p>
+                            </div>
+                            <div class="block-product text">
+                                <p><strong>Дата доставки</strong></p>
+                                <p class="meaning">01.02.2020</p>
+                            </div>
+                            <div class="block-product text">
+                                <p><strong>Вид доставки</strong></p>
+                                <p class="meaning">Самовывоз</p>
+                            </div>
+                        </div>
+                        <div class="product-tracking-footer">
+                            <h5>Итоговая сумма <span>25 599</span></h5>
+                            <button type="button" class="btn-brown">Загрузить ещё</button>
+                        </div>
+                    </div>
+
+                    <div class="product-tracking">
+                        <h4 class="product-tracking-title">
+                            Заказ № 1214564
+                        </h4>
+                        <div class="load">
+                            <ul class="progressbar">
+                                <li class="active"><span>Создан</span></li>
+                                <li class="active"><span>Подтвержден</span></li>
+                                <li class=""><span>Отправлен</span></li>
+                                <li class=""><span>Прибыл</span></li>
+                            </ul>
+                        </div>
+                        <div class="product-tracking-item">
+
+                            <div class="block-product image">
+                                <img src="assets/images/image%2012.png" alt="">
+                            </div>
+                            <div class="block-product text">
+                                <p><strong>Товар</strong></p>
+                                <p class="meaning">Швейцарские часы
+                                    les montres</p>
+                            </div>
+
+                            <div class="block-product text">
+                                <p><strong>Сумма</strong></p>
+                                <p class="meaning">35 000 ₽</p>
+                            </div>
+                            <div class="block-product text">
+                                <p><strong>Дата доставки</strong></p>
+                                <p class="meaning">01.02.2020</p>
+                            </div>
+                            <div class="block-product text">
+                                <p><strong>Вид доставки</strong></p>
+                                <p class="meaning">Самовывоз</p>
+                            </div>
+                        </div>
+                        <div class="product-tracking-item">
+
+                            <div class="block-product image">
+                                <img src="assets/images/image%2012.png" alt="">
+                            </div>
+                            <div class="block-product text">
+                                <p><strong>Товар</strong></p>
+                                <p class="meaning">Швейцарские часы
+                                    les montres</p>
+                            </div>
+
+                            <div class="block-product text">
+                                <p><strong>Сумма</strong></p>
+                                <p class="meaning">35 000 ₽</p>
+                            </div>
+                            <div class="block-product text">
+                                <p><strong>Дата доставки</strong></p>
+                                <p class="meaning">01.02.2020</p>
+                            </div>
+                            <div class="block-product text">
+                                <p><strong>Вид доставки</strong></p>
+                                <p class="meaning">Самовывоз</p>
+                            </div>
+                        </div>
+                        <div class="product-tracking-footer">
+                            <h5>Итоговая сумма <span>25 599</span></h5>
+                            <button type="button" class="btn-brown">Загрузить ещё</button>
+                        </div>
+                    </div>
+
+                    <div class="pagination">
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination">
+                                <li class="page-item">
+                                    <a class="page-link first" href="#" aria-label="Previous">
+
+                                        <span class="sr-only"><img src="assets/images/icons/arrow-pagination-l.svg" alt=""></span>
+                                    </a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item active" ><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                <li class="page-item"><a class="page-link" href="#">...</a></li>
+                                <li class="page-item"><a class="page-link" href="#">123</a></li>
+                                <li class="page-item">
+                                    <a class="page-link last" href="#" aria-label="Next">
+
+                                        <span class="sr-only"><img src="assets/images/icons/arrow-pagination-r.svg" alt=""></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
                     </div>
                 </div>
             </div>
